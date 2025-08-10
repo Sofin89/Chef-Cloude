@@ -6,8 +6,8 @@ import * as THREE from 'three';
 
 interface ChefHatProps {
   isGenerating: boolean;
-}
-
+}               
+     
 function ChefHat({ isGenerating }: ChefHatProps) {
   const hatRef = useRef<THREE.Group>(null);
   const cookingRef = useRef<THREE.Group>(null);
