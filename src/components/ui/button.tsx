@@ -18,12 +18,18 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        chef: "chef-button text-primary-foreground font-bold",
+        recipe: "bg-gradient-recipe text-white shadow-lg hover:shadow-xl transform transition-all duration-300 hover:scale-105",
+        hero: "bg-gradient-hero text-white font-bold text-lg px-8 py-4 rounded-xl shadow-xl hover:shadow-2xl transform transition-all duration-500 hover:scale-105 hover:-translate-y-1",
+        magical: "bg-gradient-chef text-white font-semibold rounded-full px-6 py-3 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:-translate-x-full before:transition-transform before:duration-700 hover:before:translate-x-full"
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
+        xl: "h-12 rounded-lg px-10 text-base",
         icon: "h-10 w-10",
+        hero: "h-14 px-12 text-lg",
       },
     },
     defaultVariants: {
