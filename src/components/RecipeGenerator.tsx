@@ -7,7 +7,7 @@ import { Badge } from './ui/badge';
 import { Wand2, ChefHat, Clock, Users, Download, Copy, Heart, Shuffle } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { toast } from 'sonner';
-
+          
 interface Recipe {
   title: string;
   description: string;
