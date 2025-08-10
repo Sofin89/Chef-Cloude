@@ -64,15 +64,17 @@ export default function RecipeGenerator({ ingredients, onRandomInspiration }: Re
     ];
 
     const instructions = [
-      `🔥 **STEP 1:** Prep your ${ingredients[0]} - chop, wash, or dice as needed. ✨`,
+      `🔥 **STEP 1: Preparation Magic** \nCarefully prep your ${ingredients[0]} - wash thoroughly, peel if needed, and chop into uniform pieces. This ensures even cooking and beautiful presentation! ✨`,
       
-      `🎭 **STEP 2:** Heat pan with oil over medium heat until it sizzles. 🔥`,
+      `🎭 **STEP 2: Heat Things Up** \nHeat your pan over medium heat and add a generous splash of oil. Wait for that perfect sizzle sound - it means your pan is ready for cooking magic! 🔥`,
       
-      `🌪️ **STEP 3:** Add ${ingredients.slice(1).join(', ')} and cook 3-5 minutes. 🌟`,
+      `🌪️ **STEP 3: Building Flavors** \nAdd your ${ingredients[0]} first and let it cook for 2-3 minutes to develop some color. Then add ${ingredients.slice(1).join(', ')} one by one, allowing each ingredient to shine and mingle with the others. 🌟`,
       
-      `🎪 **STEP 4:** Season with salt, pepper, and spices. Taste and adjust! 🎤`,
+      `🎪 **STEP 4: Seasoning Symphony** \nThis is where the magic happens! Season generously with salt and pepper, then add your favorite herbs and spices. Taste frequently and adjust - you're the conductor of this flavor orchestra! 🎤`,
       
-      `🏆 **STEP 5:** Cook until golden and tender. Serve hot! 🎆`
+      `🌈 **STEP 5: The Perfect Finish** \nContinue cooking for 8-12 minutes, stirring occasionally to prevent sticking. Look for that perfect golden color and tender texture. The aroma should be absolutely irresistible! 🎆`,
+      
+      `🏆 **STEP 6: Plating Perfection** \nRemove from heat and let it rest for 2-3 minutes. Plate beautifully, garnish with fresh herbs if available, and serve immediately while it's piping hot! 🍽️`
     ];
 
     const tips = [
@@ -101,12 +103,15 @@ export default function RecipeGenerator({ ingredients, onRandomInspiration }: Re
     const title = `${cuisine !== 'Any' ? cuisine + ' ' : ''}${mealType !== 'Any' ? mealType + ' ' : ''}with ${ingredients.slice(0, 2).join(' and ')}`;
     
     const instructions = [
-      `Prep ${ingredients[0]} - wash, peel, or chop as needed.`,
-      `Heat pan with oil over medium heat.`,
-      `Add ${ingredients[0]}, cook 3-4 minutes until browned.`,
-      `Add ${ingredients.slice(1).join(', ')} and season.`,
-      `Cook 10-15 minutes, stirring occasionally.`,
-      `Serve hot and enjoy!`
+      `Start by preparing your ${ingredients[0]} - wash thoroughly, peel if necessary, and cut into even-sized pieces for consistent cooking.`,
+      `Heat a large pan or skillet over medium heat and add 1-2 tablespoons of your preferred cooking oil.`,
+      `Once the oil is shimmering, add your ${ingredients[0]} and cook for 3-4 minutes until it starts to develop a light golden color.`,
+      `Add the remaining ingredients: ${ingredients.slice(1).join(', ')}. Stir gently to combine everything evenly.`,
+      `Season generously with salt, freshly ground black pepper, and any additional spices or herbs you enjoy.`,
+      `Continue cooking for 10-15 minutes, stirring occasionally to prevent sticking and ensure even cooking.`,
+      `Taste and adjust the seasoning as needed - this is your chance to make it perfect for your palate.`,
+      `Cook until all ingredients are tender and flavors have melded together beautifully.`,
+      `Remove from heat, let rest for 2-3 minutes, then serve hot in warmed bowls or plates.`
     ];
 
     const tips = [
