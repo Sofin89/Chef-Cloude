@@ -5,7 +5,7 @@ import { Input } from './ui/input';
 import { Badge } from './ui/badge';
 import { Mic, MicOff, Plus, X, Sparkles } from 'lucide-react';
 import { toast } from 'sonner';
-
+           
 const SUGGESTED_INGREDIENTS = [
   'chicken', 'beef', 'salmon', 'rice', 'pasta', 'tomatoes', 'onions', 'garlic', 'bell peppers',
   'mushrooms', 'cheese', 'eggs', 'milk', 'flour', 'olive oil', 'basil', 'oregano', 'salt',
