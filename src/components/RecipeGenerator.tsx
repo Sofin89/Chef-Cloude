@@ -64,15 +64,15 @@ export default function RecipeGenerator({ ingredients, onRandomInspiration }: Re
     ];
 
     const instructions = [
-      `🔥 **STEP 1: The Grand Beginning!** \nFirst, channel your inner chef wizard 🧙‍♂️ and prep your ${ingredients[0]}. If it needs chopping, make those knife skills sing! If it needs washing, give it a spa day! ✨`,
+      `🔥 **STEP 1:** Prep your ${ingredients[0]} - chop, wash, or dice as needed. ✨`,
       
-      `🎭 **STEP 2: The Plot Thickens!** \nNow we're cooking with gas! 🔥 Heat up your cooking vessel (fancy talk for "pan" 😉). Add a splash of oil and listen for that beautiful sizzle - it's music to a chef's ears! 🎵`,
+      `🎭 **STEP 2:** Heat pan with oil over medium heat until it sizzles. 🔥`,
       
-      `🌪️ **STEP 3: The Flavor Tornado!** \nTime to add your supporting cast of ingredients! Each one is a star in its own right. ${ingredients.slice(1).join(', ')} - you're all AMAZING! 🌟 Let them mingle and get acquainted for 3-5 minutes.`,
+      `🌪️ **STEP 3:** Add ${ingredients.slice(1).join(', ')} and cook 3-5 minutes. 🌟`,
       
-      `🎪 **STEP 4: The Amazing Balancing Act!** \nSeason like you mean it! Salt, pepper, and any spices that make your heart sing! 🎤 Taste as you go - you're the director of this flavor symphony! 🎼`,
+      `🎪 **STEP 4:** Season with salt, pepper, and spices. Taste and adjust! 🎤`,
       
-      `🏆 **STEP 5: The Grand Finale!** \nCook until everything is golden, tender, and absolutely irresistible! Your kitchen should smell like pure happiness right now! 😍 Serve hot and watch faces light up like fireworks! 🎆`
+      `🏆 **STEP 5:** Cook until golden and tender. Serve hot! 🎆`
     ];
 
     const tips = [
@@ -101,13 +101,11 @@ export default function RecipeGenerator({ ingredients, onRandomInspiration }: Re
     const title = `${cuisine !== 'Any' ? cuisine + ' ' : ''}${mealType !== 'Any' ? mealType + ' ' : ''}with ${ingredients.slice(0, 2).join(' and ')}`;
     
     const instructions = [
-      `Prepare your ${ingredients[0]} by washing, peeling, or chopping as needed.`,
-      `Heat a large pan or pot over medium heat with a tablespoon of oil.`,
-      `Add ${ingredients[0]} and cook for 3-4 minutes until lightly browned.`,
-      `Add remaining ingredients: ${ingredients.slice(1).join(', ')}.`,
-      `Season with salt, pepper, and your preferred spices.`,
-      `Cook for 10-15 minutes, stirring occasionally, until everything is tender.`,
-      `Taste and adjust seasoning as needed.`,
+      `Prep ${ingredients[0]} - wash, peel, or chop as needed.`,
+      `Heat pan with oil over medium heat.`,
+      `Add ${ingredients[0]}, cook 3-4 minutes until browned.`,
+      `Add ${ingredients.slice(1).join(', ')} and season.`,
+      `Cook 10-15 minutes, stirring occasionally.`,
       `Serve hot and enjoy!`
     ];
 
