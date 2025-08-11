@@ -1,41 +1,53 @@
+# 🍳 Chef Cloudé — AI Recipe Generator
 
-# Chef-Cloude
-=======
+**Chef Cloudé** is an AI-powered web application that helps you create personalized recipes based on the ingredients you have on hand.  
+Simply enter your ingredients, and Chef Cloudé will craft a delicious recipe with step-by-step instructions — all inside your browser.
+
+---
+
+## 🌐 Live Demo
+🔗 [**Visit Chef Cloudé**](https://chef-cloude.vercel.app/)
+
+---
+
+## 🛠 Tech Stack
+
+| Category         | Technologies Used |
+|------------------|-------------------|
+| **Frontend**     | React, Vite, TypeScript |
+| **Styling & UI** | Tailwind CSS, shadcn-ui |
+| **AI**           | *(Specify your AI API / Model here)* |
+| **Deployment**   | Vercel |
+
+---
+
+## 🚀 Features
+
+- ✨ **AI-Generated Recipes** — Unique step-by-step recipes based on your ingredients  
+- 📝 **Dynamic Input** — Add/remove ingredients interactively  
+- 📱 **Responsive Design** — Works perfectly on desktop, tablet, and mobile  
+- 🎨 **Modern UI** — Tailwind CSS + shadcn-ui components  
+- ⚡ **Blazing Fast** — Powered by Vite + React + TypeScript  
+
+---
+
+## 📦 Getting Started
 
 
-## Project info
+### 1️⃣ Clone the repository
+```bash
 
-
-**Use your preferred IDE**
-
-
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2️⃣ Navigate to the project folder
 
-# Step 3: Install the necessary dependencies.
-npm i
+cd <PROJECT_FOLDER>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3️⃣ Install dependencies
+
+npm install
+
+4️⃣ Start the development server
 npm run dev
-```
 
-
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-
+Visit: http://localhost:5173 in your browser
