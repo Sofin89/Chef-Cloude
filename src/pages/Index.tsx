@@ -138,7 +138,7 @@ export default function Index() {
           className="text-center py-8"
         >
           <div className="text-muted-foreground mb-4">
-            Made Chef Cloudé • Your AI Cooking Companion
+            Made  by Chef Cloudé • Your AI Cooking Companion
           </div>
           <div className="text-sm text-muted-foreground">
             🌟 Pro Tip: The secret ingredient is always love (and maybe a little bit of magic) ✨
